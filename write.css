@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto+Slab:400&display=swap");
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    margin: 10% 20% 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 10px;
+    }
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 10%;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.author {
+
+}
